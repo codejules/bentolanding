@@ -1,0 +1,103 @@
+---
+import Logo from "@/assets/Logo.astro";
+import Section from "@/layouts/Section.astro";
+---
+
+<Section>
+    <div class="bg-white/30 rounded-xl my-20 p-2">
+        <div
+            class="grid grid-areas-layout md:grid-areas-layout-md lg:grid-areas-layout-lg grid-cols-[1fr] md:grid-cols-[200px_1fr] lg:grid-cols-[250px_1fr] grid-rows-[auto] gap-4"
+        >
+            <div class="">
+                <aside
+                    class="flex flex-col gap-6 sidebar bg-white/60 rounded-xl px-1 py-4"
+                >
+                    <ul class="flex flex-col gap-6 font-thin text-sm">
+                        <li
+                            class="hover:bg-white p-2 rounded-lg cursor-pointer"
+                        >
+                            Dashboard
+                        </li>
+                        <li
+                            class="hover:bg-white p-2 rounded-lg cursor-pointer"
+                        >
+                            All reports
+                        </li>
+                        <li
+                            class="hover:bg-white p-2 rounded-lg cursor-pointer"
+                        >
+                            Geography
+                        </li>
+                        <li
+                            class="hover:bg-white p-2 rounded-lg cursor-pointer"
+                        >
+                            Conversations
+                        </li>
+                        <li
+                            class="hover:bg-white p-2 rounded-lg cursor-pointer"
+                        >
+                            Deals
+                        </li>
+                        <li
+                            class="hover:bg-white p-2 rounded-lg cursor-pointer"
+                        >
+                            Export
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="">
+                <main class="main gap-2 flex flex-col">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+                        <article
+                            class="bg-white/60 justify-between rounded-xl p-6 gap-5 flex flex-col"
+                        >
+                            <h3 class="text-xl font-extrabold">Revenues</h3>
+                            <p class="text-4xl">15%</p>
+                            <p class="text-[10px]">Compared to last week</p>
+                            <p class="text-xs">Revenues report →</p>
+                        </article>
+                        <article
+                            class="bg-white/60 justify-between rounded-xl p-6 gap-5 flex flex-col"
+                        >
+                            <h3 class="text-xl font-extrabold">Lost deals</h3>
+                            <p class="text-4xl">3.75%</p>
+                            <p class="text-[10px]">
+                                You closed 97 out of 100 deals
+                            </p>
+                            <p class="text-xs">All deals →</p>
+                        </article>
+                        <article
+                            class="bg-white/60 justify-between rounded-xl p-6 gap-5 flex flex-col"
+                        >
+                            <h3 class="text-xl font-extrabold">Q3 2025 goal</h3>
+                            <p class="text-4xl">84%</p>
+                            <p class="text-xs">All goals →</p>
+                        </article>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2">
+                        <article
+                            class="bg-white/60 justify-between rounded-xl p-6 gap-5 flex flex-col"
+                        >
+                            <h3 class="text-xl font-extrabold">Customers</h3>
+                            <p class="text-4xl">-5%</p>
+                            <p class="text-[10px]">Compared to last week</p>
+                            <p class="text-xs">Revenues report →</p>
+                        </article>
+                        <article
+                            class="bg-white/60 justify-between rounded-xl p-6 gap-5 flex flex-col"
+                        >
+                            <h3 class="text-xl font-extrabold">Lost deals</h3>
+                            <p class="text-4xl">3.75%</p>
+                            <p class="text-[10px]">
+                                You closed 97 out of 100 deals
+                            </p>
+                            <p class="text-xs">All deals →</p>
+                        </article>
+                    </div>
+                    <div></div>
+                </main>
+            </div>
+        </div>
+    </div>
+</Section>

@@ -1,5 +1,10 @@
+---
+// Supports weights 300-700
+import "@fontsource-variable/comfortaa";
+---
+
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -7,12 +12,16 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
 	</head>
-	<body>
+	<body class="bg-hero-pattern">
 		<slot />
 	</body>
 </html>
 
 <style>
+	body {
+		font-family: "Comfortaa Variable", system-ui;
+	}
+
 	html,
 	body {
 		margin: 0;
