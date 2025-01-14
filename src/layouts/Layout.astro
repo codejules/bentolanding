@@ -14,18 +14,22 @@ import "@fontsource-variable/comfortaa";
 	</head>
 	<body class="bg-hero-pattern">
 		<slot />
+		<script
+			is:inline
+			src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"
+		></script>
 	</body>
 </html>
 
 <style>
-	body {
+	html {
 		font-family: "Comfortaa Variable", system-ui;
+		scroll-behavior: smooth;
 	}
 
-	html,
 	body {
 		margin: 0;
 		width: 100%;
-		height: 100%;
+		height: 100vh;
 	}
 </style>
